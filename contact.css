@@ -1,0 +1,187 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  padding: 0 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #000;
+  text-align: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  padding-left: 50px;
+}
+
+.navitems {
+  display: flex;
+  gap: 57px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navitems a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* CONTACT PAGE */
+
+.contactPg {
+    height: 700px;
+    background-color: #222021;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contacttext h1 {
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 133%;
+    color: white;
+    /* margin: 0;
+    padding: 100px; */
+}
+
+.contacttext p {
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 133%;
+    color: white;
+    /* margin: 0;
+    padding-left: 100px; */
+    /* padding: 100px; */
+}
+
+/* CONTACT FOOTER */
+
+.footer {
+    height: 200px;
+    background-color: #222021;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.879);
+}
+
+.footer p {
+    color: white;
+    padding-left: 140px;
+}
+
+.footeritems {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+}
+
+/* HOVER */
+
+.navitems a:hover {
+    color: #728BAD;
+}
+
+/* ✅ Mobile & Tablet (up to 1024px) */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    height: auto;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navitems {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .herosection,
+  .aboutus {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .herotext,
+  .abouttext {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .herosection h1,
+  .aboutus h1 {
+    font-size: 50px;
+  }
+
+  .herosection h2,
+  .aboutus h2 {
+    font-size: 22px;
+  }
+
+  .herotext button {
+    width: 100%;
+    padding: 12px;
+    font-size: 22px;
+  }
+
+  .wood-images {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .materialImages,
+  .materialcheck,
+  .picntext,
+  .contactform {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .materialtext h1,
+  .slidertext h1,
+  .bookingheading h1,
+  .contactsection h1 {
+    font-size: 50px;
+    padding: 40px;
+  }
+
+  .carousel-item img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+  }
+
+  .footer {
+    height: auto;
+    text-align: center;
+  }
+
+  .footer p {
+    padding: 0;
+  }
+
+  .footeritems {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
