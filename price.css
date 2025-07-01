@@ -127,7 +127,7 @@ textarea {
     color: #728BAD;
 }
 
-/* ✅ Mobile & Tablet (up to 1024px) */
+/* ✅ Mobile & Tablet (up to 576px) */
 @media (max-width: 576px) {
   .navbar {
     flex-direction: column;
